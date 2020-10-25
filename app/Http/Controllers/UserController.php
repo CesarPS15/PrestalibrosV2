@@ -26,7 +26,7 @@ class UserController extends Controller
             $users = User::where('role_id',null)->paginate(12);
         }
         $visible=false;
-        
+
         return view('users.index',compact(['users','visible']));
     }
 
@@ -62,6 +62,7 @@ class UserController extends Controller
         $visible = false;
         $user->with(['comentarios','libros']);
 
+        //return $user->role_id;
         return view('users.show', compact(['user','visible']));
     }
 
