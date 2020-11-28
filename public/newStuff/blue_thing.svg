@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1926.31" height="331.756" viewBox="0 0 1926.31 331.756">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5084ff"/>
+      <stop offset="1" stop-color="#284280"/>
+    </linearGradient>
+  </defs>
+  <g id="leak" transform="translate(-15.5 214.366)">
+    <path id="Path_26_4_" d="M1926.81,642.39H.77L.5,494.33c81.58-66.91,138.88-52.18,138.88-52.18s575.27,31.97,882.24-104.57,786.91,303.78,875.88,38.81c10.22-30.43,20-48.64,29.31-57.04Z" transform="translate(15 -525)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
