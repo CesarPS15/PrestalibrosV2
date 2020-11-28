@@ -1,3 +1,11 @@
+<style>
+  #accordionSidebar{
+    /* background-color: red !important; */
+    background-image: linear-gradient(#5084FF, #1F326B );
+  }
+
+</style>
+
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->

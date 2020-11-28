@@ -1,0 +1,85 @@
+// @import '../../sass/variables';
+$main: #3B61D1;
+$dark_main: #2A167B;
+$gradient: linear-gradient(#5084FF, #1F326B );
+// linear-gradient(to right, #30CFD0 0%, #330867 100%);
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+    // font-size: Max(16px, 0.8vh);
+}
+//Nunito
+h1 { font-family: "Nunito Neue", Nunito, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Nunito Neue", Nunito, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Nunito Neue", Nunito, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Nunito Neue", Nunito, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Nunito Neue", Nunito, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+.profileContainer{
+    display: flex;
+    width: 620px;
+    max-width: 90%;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px;
+    .content{
+        width: 90%;
+        padding: 20px;
+        h1{
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $main;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+        }
+        .personalInfoContainer{
+            display: flex;
+            width: 100%;
+            .profileImageContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 100px;
+                border: 1px solid #1d1d1b;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    // transform: translateY(1px);
+                    max-height: 100%;
+                    max-width: auto;
+                }
+            }
+            .profileBasics{
+                padding: 0.5em 1em;
+                h3{
+                    color: $main;
+                }
+                p{
+                    margin: 0;
+                }
+                .editProfile{
+                    display: flex;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    color: $main;
+                    cursor: pointer;
+                    font-size: 70%;
+                    &:hover{
+                        filter: brightness(1.2);
+                    }
+                    img{
+                        height: 10px;
+                        width: 10px;
+                    }
+                    p{
+                        margin: 0;
+                        padding-left: 0.5em;
+                    }
+                }
+            }
+        }
+    }
+}
