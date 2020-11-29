@@ -266,7 +266,7 @@
         <div class="main">
             <div id="welcomeNav">
                 <div onclick="window.location={{ url('/home') }}" class="logo">
-                    <img src="../public/newStuff/book.svg" alt="" srcset="">
+                    <img src="newStuff/book.svg" alt="" srcset="">
                     PRESTALIBROS
                 </div>
                 <ul id="options">
@@ -274,11 +274,11 @@
                     <li onclick="window.location='{{ route('register') }}'">Registrarse</li>
                 </ul>
                 <button id="toggler" onclick="toggleOptions()">
-                    <img src="/public/newStuff/down_arrow.svg" alt="">
+                    <img src="newStuff/down_arrow.svg" alt="">
                 </button>
             </div>
-            <img src="../public/newStuff/blue_thing.svg" alt="" id="background_svg">
-            <img id="main_image" src="../public/newStuff/main_book.png" alt="">
+            <img src="newStuff/blue_thing.svg" alt="" id="background_svg">
+            <img id="main_image" src="newStuff/main_book.png" alt="">
             <div class="content">
                 <h1>Dar y recibir</h1>
                 <ul>

@@ -87,11 +87,6 @@
 
             <!-- Nav Item - User Information -->
                 <div style="display: flex; flex-direction: row; align-items: center">
-<<<<<<< HEAD
-
-=======
-                  
->>>>>>> bb38c9ddb39644805ceb57a583f581a79ee986a0
                   @include('layouts.user-menu')
 
                 </div>
