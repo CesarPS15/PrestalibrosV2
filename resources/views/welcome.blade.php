@@ -274,7 +274,7 @@
                     <li onclick="window.location='{{ route('register') }}'">Registrarse</li>
                 </ul>
                 <button id="toggler" onclick="toggleOptions()">
-                    <img src="../public/newStuff/down_arrow.svg" alt="">
+                    <img src="/public/newStuff/down_arrow.svg" alt="">
                 </button>
             </div>
             <img src="../public/newStuff/blue_thing.svg" alt="" id="background_svg">
@@ -290,7 +290,7 @@
             </div>
         </div>
         <script>
-            const toggleOptions = () => document.querySelector("#options").classList.toggle("hide")    
+            const toggleOptions = () => document.querySelector("#options").classList.toggle("hide")
         </script>
     </body>
 </html>
