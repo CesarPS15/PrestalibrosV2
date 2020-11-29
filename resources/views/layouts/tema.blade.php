@@ -86,9 +86,8 @@
             <div class="topbar-divider d-none d-sm-block"></div>
 
             <!-- Nav Item - User Information -->
-                <!-- <p>hola</p> -->
                 <div style="display: flex; flex-direction: row; align-items: center">
-                  <!-- <p style="margin: 0;">{{$user->name}}</p> -->
+                  
                   @include('layouts.user-menu')
 
                 </div>
